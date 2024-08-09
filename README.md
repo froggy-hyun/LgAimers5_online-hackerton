@@ -30,59 +30,59 @@ train.csv test.csv 각 칼럼의 의미는 현업 전문가가 설명해주신 �
 채점을 위해 submission.csv 파일을 읽고 저장해야 합니다. 읽은 파일을 위의 안내의 따라 값을 채워 넣은 후에 나온 테스트 데이터를 학습된 모델에 적용합니다. 모델에서 나온 예측 결과는 아래와 같은 형태의 CSV 파일로 저장하여야 합니다. 파일 이름은 submission.csv로 해야 합니다. 초기 디렉터리에 submission.csv파일을 저장하였다면, 오른쪽 위의 제출 버튼을 클릭해 결과를 확인할 수 있습니다.
 
 #### [데이터 칼럼] 
-**DISCHARGED SPEED OF RESIN Collect Result_Dam** : Resin 토출 Speed
-**DISCHARGED TIME OF RESIN(Stage1) Collect Result_Dam** : ****Resin 토출 시간(Stage 1 : CID)
-**DISCHARGED TIME OF RESIN(Stage2) Collect Result_Dam** : ****Resin 토출 시간(Stage 2 : Seg)
-**DISCHARGED TIME OF RESIN(Stage3) Collect Result_Dam** : Resin 토출 시간(Stage 3 : Cluster)
-**Dispense Volume(Stage1) Collect Result_Dam** : Resin 토출량 (CID)
-**Dispense Volume(Stage2) Collect Result_Dam** : Resin 토출량 (Seg)
-**Dispense Volume(Stage3) Collect Result_Dam** : Resin 토출량 (Cluster)
-**HEAD NORMAL COORDINATE X AXIS(Stage1) Collect Result_Dam** : 토출좌표
-**HEAD NORMAL COORDINATE X AXIS(Stage2) Collect Result_Dam** : 토출좌표
-**HEAD NORMAL COORDINATE Z AXIS(Stage3) Collect Result_Dam** : 토출좌표
-**HEAD Standby Position X Collect Result_Dam** : 토출대기좌표
-**HEAD Standby Position Y Collect Result_Dam** : 토출대기좌표
-**HEAD Standby Position Z Collect Result_Dam** : 토출대기좌표
-**Head Clean Position X Collect Result_Dam** : 노즐클린 좌표
-**Head Clean Position Y Collect Result_Dam** : 노즐클린 좌표
-**Head Clean Position Z Collect Result_Dam** : 노즐클린 좌표
-**Head Purge Position X Collect Result_Dam** : Resin Drain 좌표
-**Head Purge Position Y Collect Result_Dam** : Resin Drain 좌표
-**Head Purge Position Z Collect Result_Dam** : Resin Drain 좌표
-**Head Zero Position X Collect Result_Dam** : Zero 좌표
-**Head Zero Position Y Collect Result_Dam** : Zero 좌표
-**Head Zero Position Z Collect Result_Dam** : Zero 좌표
-**Machine Tact time Collect Result_Dam** : DAM공정소요시간
-**PalletID Collect Result_Dam** : PalletID
-**Production Qty Collect Result_Dam** : -
-**Receip No Collect Result_Dam** : -
-**Stage1 Circle1 Distance Speed Collect Result_Dam** : CID #1 R 수치
-**Stage1 Circle2 Distance Speed Collect Result_Dam** : CID #2 R 수치
-**Stage1 Circle3 Distance Speed Collect Result_Dam** : CID #3 R 수치
-**Stage1 Circle4 Distance Speed Collect Result_Dam** : CID #4 R 수치
-**Stage1 Line1 Distance Speed Collect Result_Dam** : CID#1 토출 스피드
-**Stage1 Line2 Distance Speed Collect Result_Dam** : CID#2 토출 스피드
-**Stage1 Line3 Distance Speed Collect Result_Dam** : CID#3 토출 스피드
-**Stage1 Line4 Distance Speed Collect Result_Dam** : CID#4 토출 스피드
-**Stage2 Circle1 Distance Speed Collect Result_Dam** : Seg #1 R 수치
-**Stage2 Circle2 Distance Speed Collect Result_Dam** : Seg #2 R 수치
-**Stage2 Circle3 Distance Speed Collect Result_Dam** : Seg #3 R 수치
-**Stage2 Circle4 Distance Speed Collect Result_Dam** : Seg #4 R 수치
-**Stage2 Line1 Distance Speed Collect Result_Dam** : Seg#1 토출 스피드
-**Stage2 Line2 Distance Speed Collect Result_Dam :** Seg#2 토출 스피드
-**Stage2 Line3 Distance Speed Collect Result_Dam** : Seg#3 토출 스피드
-**Stage2 Line4 Distance Speed Collect Result_Dam** : Seg#4 토출 스피드
-**Stage3 Circle1 Distance Speed Collect Result_Dam** : Cluser #1 R 수치
-**Stage3 Circle2 Distance Speed Collect Result_Dam** : Cluser #2 R 수치
-**Stage3 Circle3 Distance Speed Collect Result_Dam** : Cluser #3 R 수치
-**Stage3 Circle4 Distance Speed Collect Result_Dam** : Cluser #4 R 수치
-**Stage3 Line1 Distance Speed Collect Result_Dam** : Clsuter#1 토출 스피드
-**Stage3 Line2 Distance Speed Collect Result_Dam** : Clsuter#2 토출 스피드
-**Stage3 Line3 Distance Speed Collect Result_Dam** : Clsuter#3 토출 스피드
-**Stage3 Line4 Distance Speed Collect Result_Dam** : Clsuter#4 토출 스피드
-**THICKNESS 1 Collect Result_Dam** : -
-**THICKNESS 2 Collect Result_Dam** : -
-**THICKNESS 3 Collect Result_Dam** : -
+**DISCHARGED SPEED OF RESIN Collect Result_Dam** : Resin 토출 Speed  
+**DISCHARGED TIME OF RESIN(Stage1) Collect Result_Dam** : ****Resin 토출 시간(Stage 1 : CID)  
+**DISCHARGED TIME OF RESIN(Stage2) Collect Result_Dam** : ****Resin 토출 시간(Stage 2 : Seg)  
+**DISCHARGED TIME OF RESIN(Stage3) Collect Result_Dam** : Resin 토출 시간(Stage 3 : Cluster)  
+**Dispense Volume(Stage1) Collect Result_Dam** : Resin 토출량 (CID)  
+**Dispense Volume(Stage2) Collect Result_Dam** : Resin 토출량 (Seg)  
+**Dispense Volume(Stage3) Collect Result_Dam** : Resin 토출량 (Cluster)  
+**HEAD NORMAL COORDINATE X AXIS(Stage1) Collect Result_Dam** : 토출좌표  
+**HEAD NORMAL COORDINATE X AXIS(Stage2) Collect Result_Dam** : 토출좌표  
+**HEAD NORMAL COORDINATE Z AXIS(Stage3) Collect Result_Dam** : 토출좌표  
+**HEAD Standby Position X Collect Result_Dam** : 토출대기좌표  
+**HEAD Standby Position Y Collect Result_Dam** : 토출대기좌표  
+**HEAD Standby Position Z Collect Result_Dam** : 토출대기좌표  
+**Head Clean Position X Collect Result_Dam** : 노즐클린 좌표  
+**Head Clean Position Y Collect Result_Dam** : 노즐클린 좌표  
+**Head Clean Position Z Collect Result_Dam** : 노즐클린 좌표  
+**Head Purge Position X Collect Result_Dam** : Resin Drain 좌표  
+**Head Purge Position Y Collect Result_Dam** : Resin Drain 좌표  
+**Head Purge Position Z Collect Result_Dam** : Resin Drain 좌표  
+**Head Zero Position X Collect Result_Dam** : Zero 좌표  
+**Head Zero Position Y Collect Result_Dam** : Zero 좌표  
+**Head Zero Position Z Collect Result_Dam** : Zero 좌표  
+**Machine Tact time Collect Result_Dam** : DAM공정소요시간  
+**PalletID Collect Result_Dam** : PalletID  
+**Production Qty Collect Result_Dam** : -  
+**Receip No Collect Result_Dam** : -  
+**Stage1 Circle1 Distance Speed Collect Result_Dam** : CID #1 R 수치  
+**Stage1 Circle2 Distance Speed Collect Result_Dam** : CID #2 R 수치  
+**Stage1 Circle3 Distance Speed Collect Result_Dam** : CID #3 R 수치  
+**Stage1 Circle4 Distance Speed Collect Result_Dam** : CID #4 R 수치  
+**Stage1 Line1 Distance Speed Collect Result_Dam** : CID#1 토출 스피드  
+**Stage1 Line2 Distance Speed Collect Result_Dam** : CID#2 토출 스피드  
+**Stage1 Line3 Distance Speed Collect Result_Dam** : CID#3 토출 스피드  
+**Stage1 Line4 Distance Speed Collect Result_Dam** : CID#4 토출 스피드  
+**Stage2 Circle1 Distance Speed Collect Result_Dam** : Seg #1 R 수치  
+**Stage2 Circle2 Distance Speed Collect Result_Dam** : Seg #2 R 수치  
+**Stage2 Circle3 Distance Speed Collect Result_Dam** : Seg #3 R 수치  
+**Stage2 Circle4 Distance Speed Collect Result_Dam** : Seg #4 R 수치  
+**Stage2 Line1 Distance Speed Collect Result_Dam** : Seg#1 토출 스피드  
+**Stage2 Line2 Distance Speed Collect Result_Dam :** Seg#2 토출 스피드  
+**Stage2 Line3 Distance Speed Collect Result_Dam** : Seg#3 토출 스피드  
+**Stage2 Line4 Distance Speed Collect Result_Dam** : Seg#4 토출 스피드  
+**Stage3 Circle1 Distance Speed Collect Result_Dam** : Cluser #1 R 수치  
+**Stage3 Circle2 Distance Speed Collect Result_Dam** : Cluser #2 R 수치  
+**Stage3 Circle3 Distance Speed Collect Result_Dam** : Cluser #3 R 수치  
+**Stage3 Circle4 Distance Speed Collect Result_Dam** : Cluser #4 R 수치  
+**Stage3 Line1 Distance Speed Collect Result_Dam** : Clsuter#1 토출 스피드  
+**Stage3 Line2 Distance Speed Collect Result_Dam** : Clsuter#2 토출 스피드  
+**Stage3 Line3 Distance Speed Collect Result_Dam** : Clsuter#3 토출 스피드  
+**Stage3 Line4 Distance Speed Collect Result_Dam** : Clsuter#4 토출 스피드  
+**THICKNESS 1 Collect Result_Dam** : -  
+**THICKNESS 2 Collect Result_Dam** : -  
+**THICKNESS 3 Collect Result_Dam** : -  
 
 
 

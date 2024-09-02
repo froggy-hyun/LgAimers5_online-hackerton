@@ -24,6 +24,7 @@
 <br>
 
 ## 📰 제품 이상 여부 판별 프로젝트
+<img src="readme_img/proj.png" height="180" />  
 
 ### 🚀 최종 결과
 <img src="/readme_img/final_score.png" width="800" />

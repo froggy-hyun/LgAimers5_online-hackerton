@@ -3,6 +3,17 @@
 <img src="/readme_img/contest_info.png" width="300" /><img src="/readme_img/contest_info2.png" height="180" />  
 <br>
 
+## 👉  목차 
+1. [🙋 참가팀](#-참가팀)
+2. [📰 제품 이상 여부 판별 프로젝트](#-제품-이상-여부-판별-프로젝트)
+    - [🚀 최종 결과](#-최종-결과)
+    - [🚩 과정](#-과정)
+    - [📈 feature importance](#-feature-importance)
+    - [📝 개요](#-개요)
+    - [🙏 마무리하며..](#-마무리하며)
+
+<br>
+
 ## 🙋 참가팀
 **mz호소인**  
 
@@ -19,8 +30,9 @@
 <br>
 
 
-### 🚩 과정(24.08.07 ~ 24.08.30 )  
- 
+### 🚩 과정  
+
+(24.08.07 ~ 24.08.30)
 데이터전처리: 데이터클리닝  
 모델 선정 및 모델링: randomforest, catboost, Xgboost 중 randomforest 선정  
 후처리: 칼럼간의 상관관계 파악  
@@ -110,3 +122,8 @@ train.csv test.csv 각 칼럼의 의미는 현업 전문가가 설명해주신 �
 **THICKNESS 1 Collect Result_Dam** : -  
 **THICKNESS 2 Collect Result_Dam** : -  
 **THICKNESS 3 Collect Result_Dam** : -  
+
+## 🙏 마무리하며..
+머신러닝에 대해 처음 도전하였지만 많은 것을 배우며 생각보다 좋은 결과가 나왔다. 그래서 그런지 더욱 아쉬움이 남는 것 같다.  
+막판에 점수를 올리지 못하여 19위에서부터 되게 많이 밀려나 매우 아쉽다.  
+다음 기수에도 참가하여 본선에 꼭 가보고 싶다.

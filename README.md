@@ -1,5 +1,6 @@
 # LgAimers5기 온라인 해커톤 (Phase 2)
- 
+최종 제출 코드: code_refactored_onehot_numplus.ipynb  
+
 <img src="/readme_img/contest_info.png" width="300" /><img src="/readme_img/contest_info2.png" height="180" />  
 <br>
 

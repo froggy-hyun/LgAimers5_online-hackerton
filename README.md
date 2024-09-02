@@ -1,7 +1,16 @@
 # LgAimers5_online-hackerton
-**LgAimers5기 온라인 해커톤 ** 
+**LgAimers5기 온라인 해커톤 **   
+
+<img src="/readme_img/contest_info.png" width="200" />
+<img src="/readme_img/contest_info2.png" width="600" />
 
 ### <제품 이상 여부 판별 프로젝트>
+![easyme](/readme_img/proj.png)
+
+### <최종 결과>
+![easyme](/readme_img/final_score.png)
+![easyme](/readme_img/feature_importance.png)
+
 
 #### [개요]​
 최근 기계학습 모델의 발전과 함께 제품의 생산 단계에서 이상 여부를 미리 판단하려는 시도가 증가하고 있습니다. 이번 경진대회에서는 공정 과정의 여러 가지 데이터를 이용해 이상 여부를 판별하는 모델을 구현하고 그 성능을 비교하고자 합니다.
